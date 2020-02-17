@@ -1,0 +1,121 @@
+// header
+
+
+@media (max-width: 850px)
+	.heros
+		padding-top: 60px
+		text-align: center
+		&-wrapper
+			flex-direction: column
+		&-about
+			margin-bottom: 75px
+		&__title
+			font-size: 40px
+			margin-top: 0
+			margin-bottom: 25px
+		&__text
+			max-width: 540px
+			margin-left: auto
+			margin-right: auto
+		&-buttons
+			margin-top: 50px
+			&__btn
+				padding: 10px 15px
+				font-size: 18px
+		&-img
+			img
+
+				max-width: 305px
+				margin: auto
+	.descrip
+		padding: 50px 0
+		&__title
+			font-size: 26px
+		&__text
+			max-width: 540px
+			margin-left: auto
+			margin-right: auto
+			font-size: 15px
+	.features
+		padding: 40px 0
+		&-wrapper
+			flex-direction: column
+		&-item
+			flex-basis: 100%
+			margin-bottom: 40px
+			&:last-child
+				margin-bottom: 0
+
+	.slides
+		padding-top: 65px
+		text-align: center
+		&-wrapper
+			flex-direction: column
+			align-items: center
+		&-img
+			order: 2
+			img
+				max-width: 100%
+		.slider
+			margin-top: 0
+			margin-bottom: 40px
+			padding-right: 0
+			&-dots
+				display: flex
+				justify-content: center
+			&-item
+				&__text
+					margin-left: auto
+					margin-right: auto
+
+	.discover
+		padding: 50px 0
+
+	.subscribe
+		padding: 65px 0
+
+	.footer
+		padding: 25px 0
+		background-color: #eee
+		position: relative
+		.container
+			flex-direction: column
+		&__logo
+			margin-bottom: 15px
+			padding-top: 160px
+		&__copy
+			margin-bottom: 40px
+		&__download
+			position: absolute
+			top: 0
+			display: block
+			background-color: #fff
+			width: 100%
+			text-align: center
+			padding-top: 40px
+			padding-bottom: 65px
+
+@media (max-width: 576px)
+	.header
+		&-top
+			padding: 60px 0
+			justify-content: center
+			&__socials
+				display: none
+	.subscribe
+		&__form
+			flex-direction: column
+			&-input
+				margin-right: 0
+				margin-bottom: 20px
+				display: block
+				max-width: 100%
+
+	.subscribe
+		padding: 45px 0
+
+	.footer
+		&-top
+			&__socials
+				display: flex
+
